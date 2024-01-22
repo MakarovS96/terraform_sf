@@ -1,4 +1,5 @@
 terraform {
+  required_version = " >= 1.5"
   required_providers {
     yandex = {
       source = "yandex-cloud/yandex"
@@ -12,8 +13,8 @@ terraform {
     region = "ru-central1-a"
     key = "sf/lemp.tfstate"
 
-    access_key = "<>"
-    secret_key = "<>"
+    access_key = "YCAJEnylekYj0rfJ_pp-6kcPT"
+    secret_key = "YCO7dakrAYnBrJnDPdhT6w-ZYCWHYF3s2D-pNOk7"
 
     skip_region_validation = true
     skip_credentials_validation = true
