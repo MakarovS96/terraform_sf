@@ -23,6 +23,12 @@
 
 | Name | Type |
 |------|------|
+| [yandex_alb_backend_group.back_group](https://registry.terraform.io/providers/yandex-cloud/yandex/0.105.0/docs/resources/alb_backend_group) | resource |
+| [yandex_alb_http_router.tf-router](https://registry.terraform.io/providers/yandex-cloud/yandex/0.105.0/docs/resources/alb_http_router) | resource |
+| [yandex_alb_load_balancer.tf-alb](https://registry.terraform.io/providers/yandex-cloud/yandex/0.105.0/docs/resources/alb_load_balancer) | resource |
+| [yandex_alb_target_group.lamp](https://registry.terraform.io/providers/yandex-cloud/yandex/0.105.0/docs/resources/alb_target_group) | resource |
+| [yandex_alb_target_group.lemp](https://registry.terraform.io/providers/yandex-cloud/yandex/0.105.0/docs/resources/alb_target_group) | resource |
+| [yandex_alb_virtual_host.vh](https://registry.terraform.io/providers/yandex-cloud/yandex/0.105.0/docs/resources/alb_virtual_host) | resource |
 | [yandex_vpc_network.testnet](https://registry.terraform.io/providers/yandex-cloud/yandex/0.105.0/docs/resources/vpc_network) | resource |
 | [yandex_vpc_subnet.testsubnet1](https://registry.terraform.io/providers/yandex-cloud/yandex/0.105.0/docs/resources/vpc_subnet) | resource |
 | [yandex_vpc_subnet.testsubnet2](https://registry.terraform.io/providers/yandex-cloud/yandex/0.105.0/docs/resources/vpc_subnet) | resource |
@@ -40,8 +46,9 @@
 
 | Name | Description |
 |------|-------------|
-| <a name="output_external_ip_address_vm1"></a> [external\_ip\_address\_vm1](#output\_external\_ip\_address\_vm1) | n/a |
-| <a name="output_external_ip_address_vm2"></a> [external\_ip\_address\_vm2](#output\_external\_ip\_address\_vm2) | n/a |
-| <a name="output_internal_ip_address_vm1"></a> [internal\_ip\_address\_vm1](#output\_internal\_ip\_address\_vm1) | n/a |
-| <a name="output_internal_ip_address_vm2"></a> [internal\_ip\_address\_vm2](#output\_internal\_ip\_address\_vm2) | n/a |
+| <a name="output_balancer_ip"></a> [balancer\_ip](#output\_balancer\_ip) | Application load balancer external IP |
+| <a name="output_external_ip_address_vm1"></a> [external\_ip\_address\_vm1](#output\_external\_ip\_address\_vm1) | External IP of vm1 |
+| <a name="output_external_ip_address_vm2"></a> [external\_ip\_address\_vm2](#output\_external\_ip\_address\_vm2) | External IP of vm2 |
+| <a name="output_internal_ip_address_vm1"></a> [internal\_ip\_address\_vm1](#output\_internal\_ip\_address\_vm1) | Internal IP of vm1 |
+| <a name="output_internal_ip_address_vm2"></a> [internal\_ip\_address\_vm2](#output\_internal\_ip\_address\_vm2) | Internal IP of vm2 |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
