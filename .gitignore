@@ -1,0 +1,3 @@
+keys/*
+.terraform*
+.DS_Store
