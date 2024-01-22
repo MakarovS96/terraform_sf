@@ -19,8 +19,11 @@ resource "yandex_compute_instance" "vm" {
 
   resources {
     cores  = 2
-    memory = 2
+    memory = 1
+    core_fraction = 20
   }
+
+  allow_stopping_for_update = true
 
   boot_disk {
     initialize_params {
